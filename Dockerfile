@@ -1,7 +1,7 @@
 FROM yiwang666/lamp
 MAINTAINER YiWanG <admin@yiwang6.cn>
 
-COPY src/houzhui.zip /houzhui.zip
+COPY src/houzhui.zip /tmp/houzhui.zip
 
 
 RUN apt-get install -y unzip
